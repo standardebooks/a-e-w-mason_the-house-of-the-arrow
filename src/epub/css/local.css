@@ -41,15 +41,13 @@
 
 #chapter-13 blockquote:first-of-type p:nth-of-type(5){
 	border-top-style: double;
-	margin-top: 1em;
-	margin-left: 8em;
 	display: inline-block;
+	margin-left: 8em;
+	margin-top: 1em;
 }
 /* End burned fragment */
 
-
 /* Begin lists */
-
 /* ch 15 */
 #chapter-15 ol{
 	counter-reset: item;
@@ -61,10 +59,11 @@ li{
 }
 
 table ol li::before{
-	content: "   (" counter(item, lower-alpha) ") ";
-	font-style: italic;
+	content: "(" counter(item, lower-alpha) ") ";
 	float: left;
+	font-style: italic;
 }
+
 /* ch 18 */
 #chapter-18 ol{
 	counter-reset: item 4;
@@ -72,8 +71,9 @@ table ol li::before{
 }
 
 ol li::before{
-	content: "   (" counter(item) ") ";
+	content: "(" counter(item) ") ";
 	float: left;
+	text-indent: 1em;
 }
 
 ul{
@@ -88,8 +88,8 @@ table{
 }
 
 th{
-	font-weight: normal;
 	font-variant: small-caps;
+	font-weight: normal;
 }
 
 tr{

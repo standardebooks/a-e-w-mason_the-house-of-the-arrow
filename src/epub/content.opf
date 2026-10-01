@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/a-e-w-mason/the-house-of-the-arrow</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-10-01T21:03:08Z</dc:date>
+		<meta property="dcterms:modified">2026-10-01T21:03:08Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -44,23 +44,24 @@
 		<meta property="term" refines="#subject-4">sh2008107761</meta>
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:genre">Mystery</meta>
-		<meta id="collection-1" property="belongs-to-collection">Inspector Hanaud</meta>
-		<meta property="collection-type" refines="#collection-1">series</meta>
-		<meta property="group-position" refines="#collection-1">2</meta>
-		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
-		<meta property="collection-type" refines="#collection-2">set</meta>
-		<meta property="schema:abstract">A blackmailer knows he is falsely accusing the dead woman’s niece of murder by poison, but perhaps evidence suggests otherwise.</meta>
+		<meta id="collection-1" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta id="collection-2" property="belongs-to-collection">Inspector Hanaud</meta>
+		<meta property="collection-type" refines="#collection-2">series</meta>
+		<meta property="group-position" refines="#collection-2">2</meta>
+		<meta property="schema:abstract">A blackmailer falsely accuses a dead woman’s niece of murder by poison, but the evidence suggests the accusation might not be false after all.</meta>
 		<dc:description>
-			&lt;p&gt;After the apparently natural death of wealthy widow Madame Harlowe, a blackmailer accuses her niece of murder by poison, an accusation he knows to be false. The famous French detective &lt;a href="https://standardebooks.org/collections/inspector-hanaud"&gt;Inspector Hanaud&lt;/a&gt; is called in with Madame Harlowe’s death only an excuse to investigate a series of local anonymous blackmailing letters the local police have been unable to solve. Police exhume the body and there is no trace of poison, defeating the blackmailer. Yet there is a treatise on untraceable poison in the house library. Perhaps the accusation was really true. An incontrovertible alibi, and efforts to implicate others, shield the clever criminal from suspicion by all except Inspector Hanaud.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/a-e-w-mason"&gt;A. E. W. Mason&lt;/a&gt; had learned of this untraceable poison during his time as a Secret Service agent (1915), later receiving a treatise with the poison arrow description echoed in the book.&lt;/p&gt;
+			&lt;p&gt;After the apparently natural death of wealthy widow Madame Harlowe, a blackmailer accuses her niece of murder by poison—an accusation he knows to be false. The famous French detective &lt;a href="https://standardebooks.org/collections/inspector-hanaud"&gt;Inspector Hanaud&lt;/a&gt; is called in, with Madame Harlowe’s death only an excuse to investigate a series of anonymous blackmailings the local police have been helpless to solve.&lt;/p&gt;
+			&lt;p&gt;The police exhume Madame Harlowe’s body and find no trace of poison, defeating the blackmailer—yet there’s a treatise on untraceable poison in the house library. Perhaps the accusation was really true?&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/a-e-w-mason"&gt;A. E. W. Mason&lt;/a&gt; had learned about untraceable poisons during his time as a Secret Service agent in 1915.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/67514</dc:source>
 		<dc:source>https://archive.org/details/bwb_P9-DLG-687</dc:source>
 		<!-- Scans for missing pages (p. 304-306) -->
 		<dc:source>https://catalog.hathitrust.org/Record/000245791</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">96000</meta>
+		<meta property="schema:educationalLevel">74.9</meta>
 		<link href="https://en.wikipedia.org/wiki/The_House_of_the_Arrow_(novel)" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
@@ -85,6 +86,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>

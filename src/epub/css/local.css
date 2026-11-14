@@ -48,32 +48,17 @@
 /* End burned fragment */
 
 /* Begin lists */
-/* ch 15 */
+/* Chapter 15. */
 #chapter-15 ol{
-	counter-reset: item;
-	list-style: none;
+	list-style: decimal;
 }
 
-li{
-	counter-increment: item;
+#chapter-15 table ol{
+	list-style: lower-alpha;
 }
 
-table ol li::before{
-	content: "(" counter(item, lower-alpha) ") ";
-	float: left;
+#chapter-15 table ol li::marker{
 	font-style: italic;
-}
-
-/* ch 18 */
-#chapter-18 ol{
-	counter-reset: item 4;
-	list-style: none;
-}
-
-ol li::before{
-	content: "(" counter(item) ") ";
-	float: left;
-	text-indent: 1em;
 }
 
 ul{

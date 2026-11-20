@@ -57,8 +57,10 @@
 	list-style: lower-alpha;
 }
 
-#chapter-15 table ol li::marker{
-	font-style: italic;
+@supports selector(::marker){
+	#chapter-15 table ol li::marker{
+		font-style: italic;
+	}
 }
 
 ul{
